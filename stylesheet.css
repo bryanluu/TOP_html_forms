@@ -1,0 +1,44 @@
+body {
+  background-color: #eceef1;
+}
+
+.primary-action {
+  color: white;
+  background-color: #0077c5;
+  padding: 1ex 1em 1ex 1em;
+  border: 2px solid #266188;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+#span-header {
+  display: flex;
+  padding-top: 1ex;
+  padding-bottom: 2em;
+  padding-right: 3em;
+}
+
+#sign-in-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: small;
+  padding-right: 1ex;
+}
+
+a {
+  color: #0e7ec7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-family: Helvetica;
+}
