@@ -18,7 +18,7 @@ nav {
 #span-header {
   display: flex;
   padding-top: 1ex;
-  padding-bottom: 2em;
+  padding-bottom: 1ex;
   padding-right: 3em;
 }
 
@@ -30,6 +30,10 @@ nav {
   padding-right: 1ex;
 }
 
+.primary-action i {
+  margin-right: 3px;
+}
+
 a {
   color: #0e7ec7;
   text-decoration: none;
@@ -39,6 +43,104 @@ a:hover {
   text-decoration: underline;
 }
 
-p {
+p label {
   font-family: Helvetica;
+}
+
+#center-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(0.5, 0.5);
+}
+
+#body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #c7c7c7;
+  border-radius: 3px;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: x-large;
+  padding: 1em 1ex 1em 1ex;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: medium;
+  text-align: center;
+}
+
+.form-question {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+}
+
+label {
+  margin-top: 1em;
+}
+
+input {
+  border: 2px solid #e0e2e3;
+  border-radius: 2px;
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+  width: 300px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+form button {
+  width: 300px;
+}
+
+.grey {
+  color: #747474;
+}
+
+.dark-grey {
+  color: #5a5a5a;
+}
+
+.mini-text {
+  font-size: small;
+  margin-top: -7px;
+  padding-bottom: 1ex;
+  margin-bottom: 1em;
+}
+
+.disclaimer {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: small;
+  font-style: italic;
+  padding-bottom: 3em;
+}
+
+.disclaimer em {
+  font-weight: bold;
+}
+
+.dark-dark-grey {
+  color: #606060;
+}
+
+.recaptcha {
+  background-color: #eceef1;
+  padding: 2em;
 }
