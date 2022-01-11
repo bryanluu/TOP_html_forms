@@ -28,18 +28,19 @@ nav {
   justify-content: space-between;
   font-size: small;
   padding-right: 1ex;
+  font-family: Helvetica;
 }
 
 .primary-action i {
   margin-right: 3px;
 }
 
-a {
+.link {
   color: #0e7ec7;
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   text-decoration: underline;
 }
 
@@ -53,11 +54,16 @@ p label {
   align-items: center;
 }
 
+span {
+  font-family: Helvetica;
+}
+
 #header {
   display: flex;
   flex-direction: column;
   align-items: center;
   transform: scale(0.5, 0.5);
+  margin-bottom: -1.5em;
 }
 
 #body {
@@ -88,6 +94,7 @@ h2 {
 }
 
 label {
+  font-family: Helvetica;
   margin-top: 1em;
 }
 
@@ -143,4 +150,34 @@ form button {
 .recaptcha {
   background-color: #eceef1;
   padding: 2em;
+  font-family: Helvetica;
+}
+
+#footer {
+  text-align: center;
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+
+#footer span {
+  display: flex;
+}
+
+#footer span a {
+  margin: 1ex;
+}
+
+#privacy {
+  padding: 1.5em;
+  background-color: white;
+}
+
+#privacy button {
+  background-color: white;
+  border: 0;
+  font-size: medium;
 }
